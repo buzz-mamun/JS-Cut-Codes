@@ -15,7 +15,7 @@ if(a = 20){
 
 if(b == 16){
     console.log("The Value of 'b' is not 15")
-};
+}
 else{
     console.log("The Value of 'b' is 15")
 };
@@ -47,6 +47,8 @@ if(b == 15 || c == 20){
 }
 
 
+// Multi Staged Conditionals
+
 console.log(" ");
 console.log("----- Multi Staged Conditions -----");
 console.log(" ");
@@ -54,7 +56,7 @@ console.log(" ");
 
 if(a == 25){
     console.log("The value 'a' is 25")
-};
+}
 else{
     if(a == 35){
         console.log("The value 'a' is 35");
@@ -63,3 +65,7 @@ else{
         console.log("The value 'a' is 20")
     }
 };
+
+console.log(" ");
+console.log("----- Multi Staged Conditions -----");
+console.log(" ");
