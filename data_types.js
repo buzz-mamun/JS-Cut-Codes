@@ -114,7 +114,69 @@ console.log("----- Add or Remove the Last Element of an Array -----");
 console.log(" ");
 
 console.log(arEle);
+// add at end
+// Not Index but Data in Brackets
 arEle.push(120);
 console.log(arEle);
+// remove from end
 arEle.pop();
 console.log(arEle);
+
+// Add Element at the first of Array
+
+
+console.log(" ");
+console.log("----- Add or Remove the First Element of an Array -----");
+console.log(" ");
+
+
+console.log(arEle);
+// add to first
+// Not Index but Data in Brackets
+arEle.unshift(5); 
+console.log(arEle);
+// remove from first
+arEle.shift();
+console.log(arEle);
+
+console.log(" ");
+console.log("----- Add two Arrays -----");
+console.log(" ");
+
+
+
+
+var arEle2 = [200, 300, 400, 500];
+var arEleComb = arEle.concat(arEle2);
+console.log(arEle);
+console.log(arEle2);
+console.log(arEleComb);
+
+
+
+console.log(" ");
+console.log("----- Add or Remove from Array -----");
+console.log(" ");
+
+// Index of Elements inside Brackets
+
+var arraSplSli = [1, 2, 3, 4, 6];
+
+// If one Number in bracket it will remove Index 0 to that number to be removed in arrray
+var arEleSlice = arraSplSli.slice(3);
+console.log(arEleSlice);
+
+// If two Number in bracket first number will signify start index and end number signifies the number of data taken in new array.
+var arEleSlice2 = arraSplSli.slice(0, 2);
+console.log(arEleSlice2);
+
+// If two Number in bracket first number will signify start index and end number signifies the number of data taken in new array.
+var arEleSplice1 = arraSplSli.splice(0, 5);
+console.log(arEleSplice1);
+
+// The third and consequtive number signify newly added data
+var arEle12 = [10, 20, 30, 50, 70];
+arEle12.splice(3, 0, 40);
+console.log(arEle12);
+arEle12.splice(5, 1, 60);
+console.log(arEle12);
