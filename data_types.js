@@ -170,9 +170,6 @@ console.log(arEleSlice);
 var arEleSlice2 = arraSplSli.slice(0, 2);
 console.log(arEleSlice2);
 
-// If two Number in bracket first number will signify start index and end number signifies the number of data taken in new array.
-var arEleSplice1 = arraSplSli.splice(0, 5);
-console.log(arEleSplice1);
 
 // The third and consequtive number signify newly added data
 var arEle12 = [10, 20, 30, 50, 70];
